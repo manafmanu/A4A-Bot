@@ -12,18 +12,35 @@ def is_enabled(value, default):
 
 class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://beingtek.com/ref/GreyMatter658')
-    START_TXT = environ.get("START_TXT", '''<b>Hello {} 👋🏻 Im Search Bot I can share Movies and Series 😁.</b>
+    START_TXT = """𝑯𝒆𝒍𝒍𝒐 👋  {}  \n𝑯𝒆𝒓𝒆 𝒀𝒐𝒖 𝑪𝒂𝒏 𝑺𝒆𝒂𝒓𝒄𝒉 𝒀𝒐𝒖𝒓𝒔 𝑴𝒐𝒔𝒕 𝑷𝒐𝒑𝒖𝒍𝒂𝒓 𝑺𝒆𝒓𝒊𝒆𝒔.  \n𝑱𝒖𝒔𝒕 𝑻𝒚𝒑𝒆 𝒀𝒐𝒖𝒓 𝑺𝒆𝒓𝒊𝒆𝒔 𝑵𝒂𝒎𝒆 𝑨𝒏𝒅 𝑺𝒆𝒏𝒅 𝑻𝒐 𝑴𝒆 𝑶𝒓 𝑮𝒓𝒐𝒖𝒑...   \n\n𝑴𝒖𝒔𝒕 𝒀𝒐𝒖 𝑩𝒆 𝑨 𝑴𝒆𝒎𝒃𝒆𝒓 𝑶𝒇 @freakers_series 𝑻𝒐 𝑼𝒔𝒆 𝑴𝒆. \n\n 𝑭𝒐𝒓 𝑴𝒐𝒓𝒆 𝑫𝒆𝒕𝒂𝒊𝒍𝒔 𝑪𝒍𝒊𝒄𝒌 𝑯𝑬𝑳𝑷 𝑩𝒖𝒕𝒕𝒐𝒏 𝑩𝒆𝒍𝒐𝒘. 👇  \n\n𝑰𝒇 𝒚𝒐𝒖 𝒏𝒆𝒆 𝒂𝒏𝒚 𝒐𝒕𝒉𝒆𝒓 𝒃𝒐𝒕𝒔/𝒄𝒉𝒂𝒏𝒏𝒆𝒍/𝒈𝒓𝒐𝒖𝒑 𝑪𝒍𝒊𝒄𝒌 𝒕𝒉𝒆 𝑨𝑩𝑶𝑼𝑻 𝒃𝒖𝒕𝒕𝒐𝒏...   \n\n𝑴𝒂𝒊𝒏𝒕𝒂𝒊𝒏𝒆𝒅 𝒃𝒚 : @naughty_nonsense\n𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝒃𝒚 : @FF_Series_Only\n\n100% ғᴀꜱᴛ & ϙᴜᴀʟɪᴛʏ\n▬▬▬▬▬▬▬▬▬▬▬▬ """
 
 <i>Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ ᴏʀ ʀᴇᴀᴅ ᴍᴏʀᴇ ғʀᴏᴍ ᴛʜᴇ ᴍᴇɴᴜ ʙᴇʟᴏᴡ</i>''')
-    HELP_TXT = """𝙷𝙴𝚈 {}
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """<b><i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/Search_zone_bot><b>Search Bot</b></a>\n
-👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/GreyMatter_Owner><b>GreyMatter</b></a>\n
-📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
+    HELP_TXT = """<b><u>How To Request A Series💡</b></u>
+
+𝐷𝑜𝑛𝑡 𝑇𝑦𝑝𝑒 𝑆𝑒𝑟𝑖𝑒𝑠 𝐿𝑎𝑛𝑔𝑢𝑎𝑔𝑒𝑠 𝑊𝑖𝑡ℎ 𝑡ℎ𝑒 𝑇𝑖𝑡𝑙𝑒..❗️
+𝐷𝑜𝑛'𝑡 𝑇𝑦𝑝𝑒 𝑊𝑜𝑟𝑑𝑠 𝐿𝑖𝑘𝑒 (𝑆𝑒𝑎𝑠𝑜𝑛, 𝐸𝑝𝑖𝑠𝑜𝑑𝑒  &  𝑒𝑡𝑐..) 
+ <u>𝑈𝑠𝑒 𝑇ℎ𝑖𝑠 𝐷𝑒𝑚𝑜 𝑊𝑖𝑡ℎ 𝑇ℎ𝑒 𝑇𝑖𝑡𝑙𝑒 </u>
+ <b>Ex:</b>  S01E01, S02E05, S10E09 𝐹𝑜𝑟 𝐵𝑒𝑡𝑡𝑒𝑟 𝑅𝑒𝑠𝑢𝑙𝑡...❕
+
+<b><u>Examples</b></u>
+stranger things Season 2 ❌
+Stranger things season 02 Episode 4 ❌
+ Stranger things ✔️
+ Stranger things S01✔️
+Stranger things S01E05✔️\n▬▬▬▬▬▬▬▬▬▬▬▬"""
+    ABOUT_TXT = """<b><i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/ffseriesbot><b>sᴇʀɪᴇs ʙᴏᴛ</b></a>\n
+👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://www.instagram.com/naughty__nonsense/><b>ᴍᴀɴᴀғ</b></a>\n
+🎞 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ : <a href=https://t.me/freakersfilmy><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
+🎙 ᴍᴏᴠɪᴇ ᴜᴘᴅᴀᴛᴇs : <a href=https://t.me/freakersmovie><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
+📺 sᴇʀɪᴇs ɢʀᴏᴜᴘ : <a href=https://t.me/FF_Series_Only><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
+🎙 sᴇʀɪᴇs ᴜᴘᴅᴀᴛᴇs : <a href=https://t.me/freakers_series><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
+🔞 18+ ʙᴏᴛ : <a href=https://t.me/A4_Adultsbot><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
+🎞 ᴍᴏᴠɪᴇs ʙᴏᴛ  : <a href=https://t.me/freakersfilterbot><b></b>ᴠ4.0</a>\n
+✍🏼 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3\n
-📡 ʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ\n
-📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/GreyMatter_Bots><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
-🌟 ᴠᴇʀsɪᴏɴ : ᴠ 4.0\n</b></i>"""
+📡 ʜᴏsᴛᴇᴅ ᴏɴ : <a href=https://railway.app/><b></b>ʀᴀɪʟᴡᴀʏ</a>\n
+⚙ sᴏᴜʀᴄᴇ  : <a href=https://github.com/><b></b>ɢɪᴛʜᴜʙ</a>\n
+⚡️ ᴠᴇʀsɪᴏɴ : <a href=https://t.me/naughty_nonsense><b></b>ᴠ4.0</a>\n</b></i>"""
     SOURCE_TXT = """<b>𝐂𝐫𝐞𝐚𝐭𝐞 𝐎𝐧𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬:</b>
 » I will Create One Bot For You<b>
 » Contact Me @GreyMatter_Owner<b>"""
