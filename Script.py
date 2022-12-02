@@ -12,18 +12,18 @@ def is_enabled(value, default):
 
 class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://beingtek.com/ref/GreyMatter658')
-    START_TXT = """𝑯𝒆𝒍𝒍𝒐 👋  {}  \n𝑯𝒆𝒓𝒆 𝒀𝒐𝒖 𝑪𝒂𝒏 𝑺𝒆𝒂𝒓𝒄𝒉 𝒀𝒐𝒖𝒓𝒔 𝑴𝒐𝒔𝒕 𝑷𝒐𝒑𝒖𝒍𝒂𝒓 𝑺𝒆𝒓𝒊𝒆𝒔.  \n𝑱𝒖𝒔𝒕 𝑻𝒚𝒑𝒆 𝒀𝒐𝒖𝒓 𝑺𝒆𝒓𝒊𝒆𝒔 𝑵𝒂𝒎𝒆 𝑨𝒏𝒅 𝑺𝒆𝒏𝒅 𝑻𝒐 𝑴𝒆 𝑶𝒓 𝑮𝒓𝒐𝒖𝒑...   \n\n𝑴𝒖𝒔𝒕 𝒀𝒐𝒖 𝑩𝒆 𝑨 𝑴𝒆𝒎𝒃𝒆𝒓 𝑶𝒇 @freakers_series 𝑻𝒐 𝑼𝒔𝒆 𝑴𝒆. \n\n 𝑭𝒐𝒓 𝑴𝒐𝒓𝒆 𝑫𝒆𝒕𝒂𝒊𝒍𝒔 𝑪𝒍𝒊𝒄𝒌 𝑯𝑬𝑳𝑷 𝑩𝒖𝒕𝒕𝒐𝒏 𝑩𝒆𝒍𝒐𝒘. 👇  \n\n𝑰𝒇 𝒚𝒐𝒖 𝒏𝒆𝒆 𝒂𝒏𝒚 𝒐𝒕𝒉𝒆𝒓 𝒃𝒐𝒕𝒔/𝒄𝒉𝒂𝒏𝒏𝒆𝒍/𝒈𝒓𝒐𝒖𝒑 𝑪𝒍𝒊𝒄𝒌 𝒕𝒉𝒆 𝑨𝑩𝑶𝑼𝑻 𝒃𝒖𝒕𝒕𝒐𝒏...   \n\n𝑴𝒂𝒊𝒏𝒕𝒂𝒊𝒏𝒆𝒅 𝒃𝒚 : @naughty_nonsense\n𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝒃𝒚 : @FF_Series_Only\n\n100% ғᴀꜱᴛ & ϙᴜᴀʟɪᴛʏ\n▬▬▬▬▬▬▬▬▬▬▬▬ """
+    START_TXT = """𝑯𝒆𝒍𝒍𝒐 👋  {}  \n𝑯𝒆𝒓𝒆 𝒀𝒐𝒖 𝑪𝒂𝒏 𝑺𝒆𝒂𝒓𝒄𝒉 𝒀𝒐𝒖𝒓𝒔 𝑴𝒐𝒔𝒕 𝑷𝒐𝒑𝒖𝒍𝒂𝒓 𝑺𝒆𝒓𝒊𝒆𝒔.  \n𝑱𝒖𝒔𝒕 𝑻𝒚𝒑𝒆 𝒀𝒐𝒖𝒓 𝑺𝒆𝒓𝒊𝒆𝒔 𝑵𝒂𝒎𝒆 𝑨𝒏𝒅 𝑺𝒆𝒏𝒅 𝑻𝒐 𝑴𝒆 𝑶𝒓 𝑮𝒓𝒐𝒖𝒑...   \n\n𝑴𝒖𝒔𝒕 𝒀𝒐𝒖 𝑩𝒆 𝑨 𝑴𝒆𝒎𝒃𝒆𝒓 𝑶𝒇 <a href=https://t.me/freakers_series><b></b>ғʀᴇᴀᴋᴇʀs sᴇʀɪᴇs</a> 𝑻𝒐 𝑼𝒔𝒆 𝑴𝒆. \n\n 𝑭𝒐𝒓 𝑴𝒐𝒓𝒆 𝑫𝒆𝒕𝒂𝒊𝒍𝒔 𝑪𝒍𝒊𝒄𝒌 <u>𝑯𝑬𝑳𝑷</u> 𝑩𝒖𝒕𝒕𝒐𝒏 𝑩𝒆𝒍𝒐𝒘. 👇  \n\n𝑰𝒇 𝒚𝒐𝒖 𝒏𝒆𝒆𝒅 𝒂𝒏𝒚 𝒐𝒕𝒉𝒆𝒓 𝒃𝒐𝒕𝒔 / 𝒄𝒉𝒂𝒏𝒏𝒆𝒍 / 𝒈𝒓𝒐𝒖𝒑 𝑪𝒍𝒊𝒄𝒌 𝒕𝒉𝒆 <u>𝑨𝑩𝑶𝑼𝑻</u> 𝒃𝒖𝒕𝒕𝒐𝒏...   \n\n𝑴𝒂𝒊𝒏𝒕𝒂𝒊𝒏𝒆𝒅 𝒃𝒚 : <a href=https://t.me/naughty_nonsense><b></b>ɴᴀᴜɢʜᴛʏ ɴᴏɴsᴇɴsᴇ</a>\n𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝒃𝒚 : <a href=https://t.me/FF_Series_Only><b></b>ғʀᴇᴀᴋᴇʀs sᴇʀɪᴇs</a>\n\n100% ғᴀꜱᴛ & ϙᴜᴀʟɪᴛʏ\n▬▬▬▬▬▬▬▬▬▬▬▬ """
 
     HELP_TXT = """<b><u>How To Request A Series💡</b></u>
 
 𝐷𝑜𝑛𝑡 𝑇𝑦𝑝𝑒 𝑆𝑒𝑟𝑖𝑒𝑠 𝐿𝑎𝑛𝑔𝑢𝑎𝑔𝑒𝑠 𝑊𝑖𝑡ℎ 𝑡ℎ𝑒 𝑇𝑖𝑡𝑙𝑒..❗️
-𝐷𝑜𝑛'𝑡 𝑇𝑦𝑝𝑒 𝑊𝑜𝑟𝑑𝑠 𝐿𝑖𝑘𝑒 (𝑆𝑒𝑎𝑠𝑜𝑛, 𝐸𝑝𝑖𝑠𝑜𝑑𝑒  &  𝑒𝑡𝑐..) 
- <u>𝑈𝑠𝑒 𝑇ℎ𝑖𝑠 𝐷𝑒𝑚𝑜 𝑊𝑖𝑡ℎ 𝑇ℎ𝑒 𝑇𝑖𝑡𝑙𝑒 </u>
+𝐷𝑜𝑛'𝑡 𝑇𝑦𝑝𝑒 𝑊𝑜𝑟𝑑𝑠 𝐿𝑖𝑘𝑒 (𝑆𝑒𝑎𝑠𝑜𝑛, 𝐸𝑝𝑖𝑠𝑜𝑑𝑒  &  𝑒𝑡𝑐..)\n
+ <u>𝑈𝑠𝑒 𝑇ℎ𝑖𝑠 𝐷𝑒𝑚𝑜 𝑊𝑖𝑡ℎ 𝑇ℎ𝑒 𝑇𝑖𝑡𝑙𝑒 </u>\n
  <b>Ex:</b>  S01E01, S02E05, S10E09 𝐹𝑜𝑟 𝐵𝑒𝑡𝑡𝑒𝑟 𝑅𝑒𝑠𝑢𝑙𝑡...❕
 
 <b><u>Examples</b></u>
 stranger things Season 2 ❌
-Stranger things season 02 Episode 4 ❌
+Stranger things season 02 Episode 4 ❌\n
  Stranger things ✔️
  Stranger things S01✔️
 Stranger things S01E05✔️\n▬▬▬▬▬▬▬▬▬▬▬▬"""
@@ -34,7 +34,7 @@ Stranger things S01E05✔️\n▬▬▬▬▬▬▬▬▬▬▬▬"""
 📺 sᴇʀɪᴇs ɢʀᴏᴜᴘ : <a href=https://t.me/FF_Series_Only><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
 🎙 sᴇʀɪᴇs ᴜᴘᴅᴀᴛᴇs : <a href=https://t.me/freakers_series><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
 🔞 18+ ʙᴏᴛ : <a href=https://t.me/A4_Adultsbot><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
-🎞 ᴍᴏᴠɪᴇs ʙᴏᴛ  : <a href=https://t.me/freakersfilterbot><b></b>ᴠ4.0</a>\n
+🎞 ᴍᴏᴠɪᴇs ʙᴏᴛ  : <a href=https://t.me/freakersfilterbot><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
 ✍🏼 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3\n
 📡 ʜᴏsᴛᴇᴅ ᴏɴ : <a href=https://railway.app/><b></b>ʀᴀɪʟᴡᴀʏ</a>\n
