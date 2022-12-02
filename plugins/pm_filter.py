@@ -665,7 +665,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="🤔𝙃𝙤𝙬 𝙏𝙤 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙❓", url='https://t.me/How_to_Download_From_Search_Bot/2')
+            InlineKeyboardButton(text="🤔𝙃𝙤𝙬 𝙏𝙤 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙❓", url='https://t.me/SixFlix/44')
         ]
     )
 
