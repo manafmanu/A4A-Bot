@@ -14,7 +14,6 @@ class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://beingtek.com/ref/GreyMatter658')
     START_TXT = """𝑯𝒆𝒍𝒍𝒐 👋  {}  \n𝑯𝒆𝒓𝒆 𝒀𝒐𝒖 𝑪𝒂𝒏 𝑺𝒆𝒂𝒓𝒄𝒉 𝒀𝒐𝒖𝒓𝒔 𝑴𝒐𝒔𝒕 𝑷𝒐𝒑𝒖𝒍𝒂𝒓 𝑺𝒆𝒓𝒊𝒆𝒔.  \n𝑱𝒖𝒔𝒕 𝑻𝒚𝒑𝒆 𝒀𝒐𝒖𝒓 𝑺𝒆𝒓𝒊𝒆𝒔 𝑵𝒂𝒎𝒆 𝑨𝒏𝒅 𝑺𝒆𝒏𝒅 𝑻𝒐 𝑴𝒆 𝑶𝒓 𝑮𝒓𝒐𝒖𝒑...   \n\n𝑴𝒖𝒔𝒕 𝒀𝒐𝒖 𝑩𝒆 𝑨 𝑴𝒆𝒎𝒃𝒆𝒓 𝑶𝒇 @freakers_series 𝑻𝒐 𝑼𝒔𝒆 𝑴𝒆. \n\n 𝑭𝒐𝒓 𝑴𝒐𝒓𝒆 𝑫𝒆𝒕𝒂𝒊𝒍𝒔 𝑪𝒍𝒊𝒄𝒌 𝑯𝑬𝑳𝑷 𝑩𝒖𝒕𝒕𝒐𝒏 𝑩𝒆𝒍𝒐𝒘. 👇  \n\n𝑰𝒇 𝒚𝒐𝒖 𝒏𝒆𝒆 𝒂𝒏𝒚 𝒐𝒕𝒉𝒆𝒓 𝒃𝒐𝒕𝒔/𝒄𝒉𝒂𝒏𝒏𝒆𝒍/𝒈𝒓𝒐𝒖𝒑 𝑪𝒍𝒊𝒄𝒌 𝒕𝒉𝒆 𝑨𝑩𝑶𝑼𝑻 𝒃𝒖𝒕𝒕𝒐𝒏...   \n\n𝑴𝒂𝒊𝒏𝒕𝒂𝒊𝒏𝒆𝒅 𝒃𝒚 : @naughty_nonsense\n𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝒃𝒚 : @FF_Series_Only\n\n100% ғᴀꜱᴛ & ϙᴜᴀʟɪᴛʏ\n▬▬▬▬▬▬▬▬▬▬▬▬ """
 
-<i>Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ ᴏʀ ʀᴇᴀᴅ ᴍᴏʀᴇ ғʀᴏᴍ ᴛʜᴇ ᴍᴇɴᴜ ʙᴇʟᴏᴡ</i>''')
     HELP_TXT = """<b><u>How To Request A Series💡</b></u>
 
 𝐷𝑜𝑛𝑡 𝑇𝑦𝑝𝑒 𝑆𝑒𝑟𝑖𝑒𝑠 𝐿𝑎𝑛𝑔𝑢𝑎𝑔𝑒𝑠 𝑊𝑖𝑡ℎ 𝑡ℎ𝑒 𝑇𝑖𝑡𝑙𝑒..❗️
