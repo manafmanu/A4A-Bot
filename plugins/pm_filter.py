@@ -717,8 +717,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        await message.reply_photo(photo=random.choice(PICS), 
-        cap = f"🎭𝐓𝐢𝐭𝐥𝐞 : <code>{search}</code>\n"
+        await message.reply_photo(photo=random.choice(PICS), cap = f"🎭𝐓𝐢𝐭𝐥𝐞 : <code>{search}</code>\n")
     if imdb and imdb.get('poster'):
         try:
             hehe =  await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
