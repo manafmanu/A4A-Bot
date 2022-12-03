@@ -12,7 +12,22 @@ def is_enabled(value, default):
 
 class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://beingtek.com/ref/GreyMatter658')
-    START_TXT = """𝑯𝒆𝒍𝒍𝒐 👋  {}  \n𝑯𝒆𝒓𝒆 𝒀𝒐𝒖 𝑪𝒂𝒏 𝑺𝒆𝒂𝒓𝒄𝒉 𝒀𝒐𝒖𝒓𝒔 𝑴𝒐𝒔𝒕 𝑷𝒐𝒑𝒖𝒍𝒂𝒓 𝑺𝒆𝒓𝒊𝒆𝒔.  \n𝑱𝒖𝒔𝒕 𝑻𝒚𝒑𝒆 𝒀𝒐𝒖𝒓 𝑺𝒆𝒓𝒊𝒆𝒔 𝑵𝒂𝒎𝒆 𝑨𝒏𝒅 𝑺𝒆𝒏𝒅 𝑻𝒐 𝑴𝒆 𝑶𝒓 𝑮𝒓𝒐𝒖𝒑...   \n\n𝑴𝒖𝒔𝒕 𝒀𝒐𝒖 𝑩𝒆 𝑨 𝑴𝒆𝒎𝒃𝒆𝒓 𝑶𝒇 <a href=https://t.me/freakers_series><b><i>ғʀᴇᴀᴋᴇʀs sᴇʀɪᴇs</i></b></a> 𝑻𝒐 𝑼𝒔𝒆 𝑴𝒆. \n\n 𝑭𝒐𝒓 𝑴𝒐𝒓𝒆 𝑫𝒆𝒕𝒂𝒊𝒍𝒔 𝑪𝒍𝒊𝒄𝒌 <u>𝑯𝑬𝑳𝑷</u> 𝑩𝒖𝒕𝒕𝒐𝒏 𝑩𝒆𝒍𝒐𝒘. 👇  \n\n𝑰𝒇 𝒚𝒐𝒖 𝒏𝒆𝒆𝒅 𝒂𝒏𝒚 𝒐𝒕𝒉𝒆𝒓 𝒃𝒐𝒕𝒔 / 𝒄𝒉𝒂𝒏𝒏𝒆𝒍 / 𝒈𝒓𝒐𝒖𝒑 𝑪𝒍𝒊𝒄𝒌 𝒕𝒉𝒆 <u>𝑨𝑩𝑶𝑼𝑻</u> 𝒃𝒖𝒕𝒕𝒐𝒏...   \n\n<i><b>ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href=https://t.me/naughty_nonsense>ɴᴀᴜɢʜᴛʏ ɴᴏɴsᴇɴsᴇ</i></b></a>\n<i><b>ᴘᴏᴡᴇʀᴇᴅ ʙʏ  : <a href=https://t.me/FF_Series_Only>ғʀᴇᴀᴋᴇʀs sᴇʀɪᴇs</i></b></a>\n\n100% ғᴀꜱᴛ & ϙᴜᴀʟɪᴛʏ\n▬▬▬▬▬▬▬▬▬▬▬▬ """
+    START_TXT = """<b><i>ʜᴇʟʟᴏ..👋</b></i> {}
+       <b><i>ʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ sᴇᴀʀᴄʜ ʏᴏᴜʀ ᴍᴏsᴛ ᴘᴏᴘᴜʟᴀʀ sᴇʀɪᴇs.
+ᴊᴜsᴛ ᴛʏᴘᴇ ʏᴏᴜʀ sᴇʀɪᴇs ɴᴀᴍᴇ ᴀɴᴅ sᴇɴᴅ ᴛᴏ ᴍᴇ ᴏʀ ɢʀᴏᴜᴘ...
+
+ʏᴏᴜ ᴍᴜsᴛ ʙᴇ ᴀ ᴍᴇᴍʙᴇʀ ᴏғ <a href=https://t.me/freakers_series><b><i>ғʀᴇᴀᴋᴇʀs sᴇʀɪᴇs</i></b></a> ᴛᴏ ᴜsᴇ ᴍᴇ..
+
+ғᴏʀ ᴍᴏʀᴇ ᴅᴇᴛᴀɪʟs ᴄʟɪᴄᴋ</i></b> <u>𝑯𝑬𝑳𝑷</u> <i><b>ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ.. 👇
+
+ɪғ ʏᴏᴜ ɴᴇᴇᴅ ᴀɴʏ ᴏᴛʜᴇʀ 🤖ʙᴏᴛs /📂ᴄʜᴀɴɴᴇʟ /🎙️ɢʀᴏᴜᴘs ᴄʟɪᴄᴋ ᴛʜᴇ</i></b> <u>𝑨𝑩𝑶𝑼𝑻</u> <i><b>ʙᴜᴛᴛᴏɴ..!</i></b>
+
+<i><b>ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href=https://t.me/naughty_nonsense>ɴᴀᴜɢʜᴛʏ ɴᴏɴsᴇɴsᴇ</i></b></a>
+<i><b>ᴘᴏᴡᴇʀᴇᴅ ʙʏ  : <a href=https://t.me/FF_Series_Only>ғʀᴇᴀᴋᴇʀs sᴇʀɪᴇs</i></b></a>
+
+<b><i>🧐𝘍𝘙𝘌𝘈𝘒𝘌𝘙𝘚🎭𝘍𝘐𝘓𝘔𝘠🍟
+100% ғᴀsᴛ & ǫᴜᴀʟɪᴛʏ</i></b>
+▬▬▬▬▬▬▬▬▬▬▬▬ """
 
     HELP_TXT = """<b><u>How To Request A Series💡</b></u>
 
