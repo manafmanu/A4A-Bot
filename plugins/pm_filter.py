@@ -717,7 +717,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        hehe = await message.reply_photo(photo=random.choice(PICS), caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
+        fek = await message.reply_photo(photo=random.choice(PICS), caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
         cap = f"🎭𝐓𝐢𝐭𝐥𝐞 : <code>{search}</code>\n"
     if imdb and imdb.get('poster'):
         try:
@@ -736,12 +736,12 @@ async def auto_filter(client, msg, spoll=False):
                 await hmm.delete(f"🎭ᴛɪᴛʟᴇ : <code>{search}</code>\n 🔍Search Result Closed 🗑️ \n Try Again ..🫠")
         except Exception as e:
             logger.exception(e)
-            fek = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
+            fek = await message.reply_photo(cap, reply_markup=InlineKeyboardMarkup(btn))
             if SELF_DELETE:
                 await asyncio.sleep(SELF_DELETE_SECONDS)
                 await fek.delete(f"🎭ᴛɪᴛʟᴇ : <code>{search}</code>\n 🔍Search Result Closed 🗑️ \n Try Again ..🫠")
     else:
-        fuk = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
+        fuk = await message.reply_photo(cap, reply_markup=InlineKeyboardMarkup(btn))
         if SELF_DELETE:
             await asyncio.sleep(SELF_DELETE_SECONDS)
             await fuk.delete(f"🎭ᴛɪᴛʟᴇ : <code>{search}</code>\n 🔍Search Result Closed 🗑️ \n Try Again ..🫠")
