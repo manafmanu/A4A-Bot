@@ -717,33 +717,32 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"Rᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ : <code>{search}</code>\n\n\n😌 ɪꜰ ᴛʜᴇ ᴍᴏᴠɪᴇ ʏᴏᴜ ᴀʀᴇ ʟᴏᴏᴋɪɴɢ ꜰᴏʀ ɪs ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ᴛʜᴇɴ ʟᴇᴀᴠᴇ ᴀ ᴍᴇssᴀɢᴇ ʙᴇʟᴏᴡ 😌 \n\nᴇxᴀᴍᴘʟᴇ : \n\nᴇɴᴛᴇʀ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ (ʏᴇᴀʀ) ᴛᴀɢ @admin"
+        cap = f"<i><b>🎭ᴛɪᴛʟᴇ</b></i> : <code>{search}</code>\n<i><b>🕹️ᴘᴏᴡᴇʀᴇᴅ ʙʏ</i></b> : <i>@FF_Series_Only</i> "
     if imdb and imdb.get('poster'):
         try:
             hehe =  await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
                                       reply_markup=InlineKeyboardMarkup(btn))
             if SELF_DELETE:
                 await asyncio.sleep(SELF_DELETE_SECONDS)
-                await hehe.delete(f"🎭ᴛɪᴛʟᴇ : <code>{search}</code>\n 🔍Search Result Closed 🗑️ \n Try Again ..🫠")
-
+                await hehe.delete()
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
             poster = pic.replace('.jpg', "._V1_UX360.jpg")
             hmm = await message.reply_photo(photo=poster, caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
             if SELF_DELETE:
                 await asyncio.sleep(SELF_DELETE_SECONDS)
-                await hmm.delete(f"🎭ᴛɪᴛʟᴇ : <code>{search}</code>\n 🔍Search Result Closed 🗑️ \n Try Again ..🫠")
+                await hmm.delete()
         except Exception as e:
             logger.exception(e)
             fek = await message.reply_photo(cap, reply_markup=InlineKeyboardMarkup(btn))
             if SELF_DELETE:
                 await asyncio.sleep(SELF_DELETE_SECONDS)
-                await fek.delete(f"🎭ᴛɪᴛʟᴇ : <code>{search}</code>\n 🔍Search Result Closed 🗑️ \n Try Again ..🫠")
+                await fek.delete()
     else:
         fuk = await message.reply_photo(cap, reply_markup=InlineKeyboardMarkup(btn))
         if SELF_DELETE:
             await asyncio.sleep(SELF_DELETE_SECONDS)
-            await fuk.delete(f"🎭ᴛɪᴛʟᴇ : <code>{search}</code>\n 🔍Search Result Closed 🗑️ \n Try Again ..🫠")
+            await fuk.delete()
 
 
 
