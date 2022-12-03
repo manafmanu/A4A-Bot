@@ -718,9 +718,7 @@ async def auto_filter(client, msg, spoll=False):
         )
     else:
         await message.reply_photo(photo=random.choice(PICS), caption=MOVIE_TXT.format(mention=message.from_user.mention, query=search, greeting=None, group_name = f"[{message.chat.title}](t.me/{message.chat.username})" or f"[{message.chat.title}](t.me/{message.from_user.username})"), reply_markup=InlineKeyboardMarkup(buttons))
-                await asyncio.sleep(1000)
-                await dell.edit(f"𝘛𝘪𝘵𝘭𝘦: {search} \n Search Result Closed 🗑️ \n Try Again ..🎞")
-Footer
+                await asyncio.sleep(SELF_DELETE_SECONDS)
 
     if imdb and imdb.get('poster'):
         try:
