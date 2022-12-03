@@ -1,6 +1,5 @@
 import asyncio
 import re
-import random
 import ast
 import math
 from utils import get_shortlink
