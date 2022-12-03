@@ -716,6 +716,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
+        pic = 
         cap = f"🎭𝐓𝐢𝐭𝐥𝐞 : <code>{search}</code>\n"
     if imdb and imdb.get('poster'):
         try:
@@ -723,7 +724,7 @@ async def auto_filter(client, msg, spoll=False):
                                       reply_markup=InlineKeyboardMarkup(btn))
             if SELF_DELETE:
                 await asyncio.sleep(SELF_DELETE_SECONDS)
-                await hehe.delete()
+                await hehe.delete(f"🎭ᴛɪᴛʟᴇ : <code>{search}</code>\n 🔍Search Result Closed 🗑️ \n Try Again ..🫠")
 
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
@@ -731,18 +732,18 @@ async def auto_filter(client, msg, spoll=False):
             hmm = await message.reply_photo(photo=poster, caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
             if SELF_DELETE:
                 await asyncio.sleep(SELF_DELETE_SECONDS)
-                await hmm.delete()
+                await hmm.delete(f"🎭ᴛɪᴛʟᴇ : <code>{search}</code>\n 🔍Search Result Closed 🗑️ \n Try Again ..🫠")
         except Exception as e:
             logger.exception(e)
             fek = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
             if SELF_DELETE:
                 await asyncio.sleep(SELF_DELETE_SECONDS)
-                await fek.delete()
+                await fek.delete(f"🎭ᴛɪᴛʟᴇ : <code>{search}</code>\n 🔍Search Result Closed 🗑️ \n Try Again ..🫠")
     else:
         fuk = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
         if SELF_DELETE:
             await asyncio.sleep(SELF_DELETE_SECONDS)
-            await fuk.delete()
+            await fuk.delete(f"🎭ᴛɪᴛʟᴇ : <code>{search}</code>\n 🔍Search Result Closed 🗑️ \n Try Again ..🫠")
 
 
 
