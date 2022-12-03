@@ -717,9 +717,11 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        fek = await message.reply_photo(photo=random.choice(PICS), caption=cap[:1024], 
-                                reply_markup=InlineKeyboardMarkup(btn))
-        cap = f"🎭𝐓𝐢𝐭𝐥𝐞 : <code>{search}</code>\n"
+        await message.reply_photo(photo=random.choice(PICS), caption=MOVIE_TXT.format(mention=message.from_user.mention, query=search, greeting=None, group_name = f"[{message.chat.title}](t.me/{message.chat.username})" or f"[{message.chat.title}](t.me/{message.from_user.username})"), reply_markup=InlineKeyboardMarkup(buttons))
+                await asyncio.sleep(1000)
+                await dell.edit(f"𝘛𝘪𝘵𝘭𝘦: {search} \n Search Result Closed 🗑️ \n Try Again ..🎞")
+Footer
+
     if imdb and imdb.get('poster'):
         try:
             hehe =  await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
