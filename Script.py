@@ -13,20 +13,20 @@ def is_enabled(value, default):
 class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://beingtek.com/ref/GreyMatter658')
     START_TXT = """<b><i>ʜᴇʟʟᴏ..👋</b></i> {}
-       <b><i>ʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ sᴇᴀʀᴄʜ ʏᴏᴜʀ ᴍᴏsᴛ ᴘᴏᴘᴜʟᴀʀ sᴇʀɪᴇs.
-ᴊᴜsᴛ ᴛʏᴘᴇ ʏᴏᴜʀ sᴇʀɪᴇs ɴᴀᴍᴇ ᴀɴᴅ sᴇɴᴅ ᴛᴏ ᴍᴇ ᴏʀ ɢʀᴏᴜᴘ...
+               <b><i>ʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ sᴇᴀʀᴄʜ ʏᴏᴜʀ ᴍᴏsᴛ ᴘᴏᴘᴜʟᴀʀ ᴛᴠ/ᴡᴇʙ sᴇʀɪᴇs.
+ᴊᴜsᴛ ᴛʏᴘᴇ ʏᴏᴜʀ ᴛᴠ/ᴡᴇʙ sᴇʀɪᴇs ɴᴀᴍᴇ ᴀɴᴅ sᴇɴᴅ ᴛᴏ ᴍᴇ ᴏʀ ɢʀᴏᴜᴘ...! 
 
 ʏᴏᴜ ᴍᴜsᴛ ʙᴇ ᴀ ᴍᴇᴍʙᴇʀ ᴏғ <a href=https://t.me/freakers_series><b><i>ғʀᴇᴀᴋᴇʀs sᴇʀɪᴇs</i></b></a> ᴛᴏ ᴜsᴇ ᴍᴇ..
 
 ғᴏʀ ᴍᴏʀᴇ ᴅᴇᴛᴀɪʟs ᴄʟɪᴄᴋ</i></b> <u>𝑯𝑬𝑳𝑷</u> <i><b>ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ.. 👇
 
-ɪғ ʏᴏᴜ ɴᴇᴇᴅ ᴀɴʏ ᴏᴛʜᴇʀ 🤖ʙᴏᴛs /📂ᴄʜᴀɴɴᴇʟ /🎙️ɢʀᴏᴜᴘs ᴄʟɪᴄᴋ ᴛʜᴇ</i></b> <u>𝑨𝑩𝑶𝑼𝑻</u> <i><b>ʙᴜᴛᴛᴏɴ..!</i></b>
+ɪғ ʏᴏᴜ ɴᴇᴇᴅ ᴀɴʏ ᴏᴛʜᴇʀ /🤖ʙᴏᴛs /📂ᴄʜᴀɴɴᴇʟ /🎙️ɢʀᴏᴜᴘs/  ᴄʟɪᴄᴋ ᴛʜᴇ</i></b> <u>𝑨𝑩𝑶𝑼𝑻</u> <i><b>ʙᴜᴛᴛᴏɴ..!</i></b>
 
 <i><b>ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href=https://t.me/naughty_nonsense>ɴᴀᴜɢʜᴛʏ ɴᴏɴsᴇɴsᴇ</i></b></a>
 <i><b>ᴘᴏᴡᴇʀᴇᴅ ʙʏ  : <a href=https://t.me/FF_Series_Only>ғʀᴇᴀᴋᴇʀs sᴇʀɪᴇs</i></b></a>
 
-<b><i>🧐𝘍𝘙𝘌𝘈𝘒𝘌𝘙𝘚🎭𝘍𝘐𝘓𝘔𝘠🍟
-100% ғᴀsᴛ & ǫᴜᴀʟɪᴛʏ</i></b>
+<b>🧐𝘍𝘙𝘌𝘈𝘒𝘌𝘙𝘚🎭𝘍𝘐𝘓𝘔𝘠🍟</b>
+<i><b>100% ғᴀsᴛ & ǫᴜᴀʟɪᴛʏ</i></b>
 ▬▬▬▬▬▬▬▬▬▬▬▬ """
 
     HELP_TXT = """<b><u>How To Request A Series💡</b></u>
