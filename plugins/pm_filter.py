@@ -1,5 +1,6 @@
 import asyncio
 import re
+import random
 import ast
 import math
 from utils import get_shortlink
@@ -716,7 +717,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        pic = 
+        await message.reply_photo(photo=random.choice(PICS), 
         cap = f"🎭𝐓𝐢𝐭𝐥𝐞 : <code>{search}</code>\n"
     if imdb and imdb.get('poster'):
         try:
