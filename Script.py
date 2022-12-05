@@ -25,7 +25,7 @@ class script(object):
 <i><b>ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href=https://t.me/naughty_nonsense>ɴᴀᴜɢʜᴛʏ ɴᴏɴsᴇɴsᴇ</i></b></a>
 <i><b>ᴘᴏᴡᴇʀᴇᴅ ʙʏ  : <a href=https://t.me/FF_Series_Only>ғʀᴇᴀᴋᴇʀs sᴇʀɪᴇs</i></b></a>
 
-<b>🧐𝘍𝘙𝘌𝘈𝘒𝘌𝘙𝘚🎭𝘍𝘐𝘓𝘔𝘠🍟</b>
+🧐𝘍𝘙𝘌𝘈𝘒𝘌𝘙𝘚🎭𝘍𝘐𝘓𝘔𝘠🍟
 <i><b>100% ғᴀsᴛ & ǫᴜᴀʟɪᴛʏ</i></b>
 ▬▬▬▬▬▬▬▬▬▬▬▬ """
 
@@ -50,8 +50,8 @@ Stranger things S01E05✔️\n▬▬▬▬▬▬▬▬▬▬▬▬"""
 🎙 sᴇʀɪᴇs ᴜᴘᴅᴀᴛᴇs : <a href=https://t.me/freakers_series><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
 🔞 18+ ʙᴏᴛ : <a href=https://t.me/A4_Adultsbot><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
 🎞 ᴍᴏᴠɪᴇs ʙᴏᴛ  : <a href=https://t.me/freakersfilterbot><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
-✍🏼 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
-📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3\n
+✍🏼 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 3\n
+📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏʀᴏɢʀᴀᴍ\n
 📡 ʜᴏsᴛᴇᴅ ᴏɴ : <a href=https://railway.app/><b></b>ʀᴀɪʟᴡᴀʏ</a>\n
 ⚙ sᴏᴜʀᴄᴇ  : <a href=https://github.com/><b></b>ɢɪᴛʜᴜʙ</a>\n
 ⚡️ ᴠᴇʀsɪᴏɴ : <a href=https://t.me/naughty_nonsense><b></b>ᴠ4.0</a>\n</b></i>"""
