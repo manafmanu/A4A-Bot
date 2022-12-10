@@ -132,7 +132,7 @@ async def next_page(bot, query):
     else:
         btn.append(
             [
-                InlineKeyboardButton("𝙉𝙚𝙭𝙩👉🏽", callback_data=f"next_{req}_{key}_{off_set}"),
+                InlineKeyboardButton("👈🏽𝘽𝙖𝙘𝙠", callback_data=f"next_{req}_{key}_{off_set}"),
                 InlineKeyboardButton(f"📂 {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}", callback_data="pages"),
                 InlineKeyboardButton("𝙉𝙚𝙭𝙩👉🏽", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
