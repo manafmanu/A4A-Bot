@@ -47,11 +47,11 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('𝑨𝒅𝒅 𝑴𝒆 𝒀𝒐𝒖𝒓 𝑮𝒓𝒐𝒖𝒑🎙️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('𝑺𝒆𝒕𝒊𝒆𝒔 𝑼𝒑𝒅𝒂𝒕𝒆𝒔🍃', url='https://t.me/freakers_series'),
+            InlineKeyboardButton('𝑺𝒆𝒓𝒊𝒆𝒔 𝑼𝒑𝒅𝒂𝒕𝒆𝒔🍃', url='https://t.me/freakers_series'),
             InlineKeyboardButton('𝑴𝒐𝒗𝒊𝒆 𝑼𝒑𝒅𝒂𝒕𝒆𝒔🍃', url='https://t.me/freakersmovie')
             ],[
-            InlineKeyboardButton('𝑯𝒆𝒍𝒑🍃', callback_data='help'),
-            InlineKeyboardButton('𝑨𝒅𝒐𝒖𝒕🍃', callback_data='about')
+            InlineKeyboardButton('𝑯𝒆𝒍𝒑🤗', callback_data='help'),
+            InlineKeyboardButton('𝑨𝒅𝒐𝒖𝒕🫠', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -93,11 +93,11 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('𝑨𝒅𝒅 𝑴𝒆 𝒀𝒐𝒖𝒓 𝑮𝒓𝒐𝒖𝒑🎙️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('𝑺𝒆𝒕𝒊𝒆𝒔 𝑼𝒑𝒅𝒂𝒕𝒆𝒔🍃', url='https://t.me/freakers_series'),
+            InlineKeyboardButton('𝑺𝒆𝒓𝒊𝒆𝒔 𝑼𝒑𝒅𝒂𝒕𝒆𝒔🍃', url='https://t.me/freakers_series'),
             InlineKeyboardButton('𝑴𝒐𝒗𝒊𝒆 𝑼𝒑𝒅𝒂𝒕𝒆𝒔🍃', url='https://t.me/freakersmovie')
             ],[
-            InlineKeyboardButton('𝑯𝒆𝒍𝒑🍃', callback_data='help'),
-            InlineKeyboardButton('𝑨𝒃𝒐𝒖𝒕🍃', callback_data='about')
+            InlineKeyboardButton('𝑯𝒆𝒍𝒑🤗', callback_data='help'),
+            InlineKeyboardButton('𝑨𝒃𝒐𝒖𝒕🫠', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
