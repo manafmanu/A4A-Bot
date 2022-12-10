@@ -1,5 +1,6 @@
 import asyncio
 import re
+import random
 import ast
 import math
 from utils import get_shortlink
@@ -716,7 +717,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"Rᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ : <code>{search}</code>\n\n\n😌 ɪꜰ ᴛʜᴇ ᴍᴏᴠɪᴇ ʏᴏᴜ ᴀʀᴇ ʟᴏᴏᴋɪɴɢ ꜰᴏʀ ɪs ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ᴛʜᴇɴ ʟᴇᴀᴠᴇ ᴀ ᴍᴇssᴀɢᴇ ʙᴇʟᴏᴡ 😌 \n\nᴇxᴀᴍᴘʟᴇ : \n\nᴇɴᴛᴇʀ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ (ʏᴇᴀʀ) ᴛᴀɢ @admin"
+        cap = f"<b>🎬 Title:</b> {search}\n</b>\n<b><i><a href='https://t.me/freakers_series'>ғʀᴇᴀᴋᴇʀs sᴇʀɪᴇs</a></i></b>\n\n ⚠️ <s><i><b>ᴛʜɪs ғɪʟᴛᴇʀ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇᴅ ᴀғᴛᴇʀ 1 ʜᴏᴜʀs</i></b></s>"
     if imdb and imdb.get('poster'):
         try:
             hehe =  await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
@@ -734,12 +735,12 @@ async def auto_filter(client, msg, spoll=False):
                 await hmm.delete()
         except Exception as e:
             logger.exception(e)
-            fek = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
+            fek = await message.reply_photo(photo=random.choice(PICS), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
             if SELF_DELETE:
                 await asyncio.sleep(SELF_DELETE_SECONDS)
                 await fek.delete()
     else:
-        fuk = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
+        fuk = await message.reply_photo(photo=random.choice(PICS), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
         if SELF_DELETE:
             await asyncio.sleep(SELF_DELETE_SECONDS)
             await fuk.delete()
