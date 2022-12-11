@@ -72,7 +72,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/jdbot127/url-series-bot">
+<a href="https://heroku.com/deploy?template=https://github.com/manafmanu/A4A-Bot">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
@@ -80,7 +80,7 @@ You can deploy this bot anywhere.
 
 [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/GreyMattersBot/url-auto-delete-shortener-bot&branch=koyeb&name=urlshortautofilterbot)
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/XlSeIB?referralCode=JD-FF-BT)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/XlSeIB?referralCode=Auto_FIL)
 
 <details><summary>Deploy To VPS</summary>
 <p>
