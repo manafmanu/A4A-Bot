@@ -82,6 +82,8 @@ You can deploy this bot anywhere.
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/ujWXvP?referralCode=Auto_FIL)
 
+[![Deploy to Cyclic](https://deploy.cyclic.sh/button.svg)](https://deploy.cyclic.sh/manafmanu/A4A-Bot)
+
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
