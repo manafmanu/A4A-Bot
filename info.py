@@ -42,9 +42,9 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'greymatters_bots_discussion')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), False)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<b><i>ᴛɪᴛʟᴇ:</b></i> <code>{file_name}</code>\n▬▬▬▬▬▬▬▬▬▬▬▬\n🍃<b><i>Movies Update Channel</b></i>🍃\n<i>@freakersmovie</i>\n🍃<b><i>Series Update Channel</b></i>🍃\n<i>@freakers_series</i>\n▬▬▬▬▬▬▬▬▬▬▬▬\n☘𝙅𝙤𝙞𝙣:-<b><i>https://t.me/freakersmovie</b></i>\n\n🧐𝙁𝙧𝙚𝙖𝙠𝙚𝙧𝙨🎭𝙁𝙞𝙡𝙢𝙮™🍿©\n100% ғᴀꜱᴛ & ϙᴜᴀʟɪᴛʏ\n▬▬▬▬▬▬▬▬▬▬▬▬")
-BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "<b><i>ᴛɪᴛʟᴇ:</b></i> <code>{file_name}</code>\n▬▬▬▬▬▬▬▬▬▬▬▬\n🍃<b><i>Movies Update Channel</b></i>🍃\n<i>@freakersmovie</i>\n🍃<b><i>Series Update Channel</b></i>🍃\n<i>@freakers_series</i>\n▬▬▬▬▬▬▬▬▬▬▬▬\n☘𝙅𝙤𝙞𝙣:-<b><i>https://t.me/freakersmovie</b></i>\n\n🧐𝙁𝙧𝙚𝙖𝙠𝙚𝙧𝙨🎭𝙁𝙞𝙡𝙢𝙮™🍿©\n100% ғᴀꜱᴛ & ϙᴜᴀʟɪᴛʏ\n▬▬▬▬▬▬▬▬▬▬▬▬")
-IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "🎙 <i><b>ᴛɪᴛʟᴇ</i></b> : <a href={url}>{title}</a> \n🧭 <i><b>ʏᴇᴀʀ</i></b> : {release_date}\n🎯 <i><b>ʀᴀᴛɪɴɢ</i></b> : <a href={url}>IMDb</a>⭐️ {rating}/10 \n🎭 <i><b>ɢᴇɴʀᴇ</i></b> : {genres} \n📚 <i><b>ɴᴏ ᴏғ sᴇᴀsᴏɴs</i></b> : {seasons} Seasons\n\n🎊 <i><b>ᴘᴏᴡᴇʀᴇᴅ ʙʏ</i></b> : <i>[ғʀᴇᴀᴋᴇʀsғɪʟᴍʏ](https://t.me/freakersfilmy)</i>")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<b><i>ᴛɪᴛʟᴇ:</b></i> <code>{file_name}</code>\n▬▬▬▬▬▬▬▬▬▬▬▬\n🍃<b><i>Movies Update Channel</b></i>🍃\n<i>https://t.me/+HxPeOzEU3nlmMTdl</i>\n🍃<b><i>Series Update Channel</b></i>🍃\n<i>https://t.me/+4NvHgqi9_FRhNjY1</i>\n▬▬▬▬▬▬▬▬▬▬▬▬\n☘𝙅𝙤𝙞𝙣:-<b><i>https://t.me/Freakers_Filmy</b></i>\n\n🧐𝙁𝙧𝙚𝙖𝙠𝙚𝙧𝙨🎭𝙁𝙞𝙡𝙢𝙮™🍿©\n100% ғᴀꜱᴛ & ϙᴜᴀʟɪᴛʏ\n▬▬▬▬▬▬▬▬▬▬▬▬")
+BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION",)
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "🎙 <i><b>ᴛɪᴛʟᴇ</i></b> : <a href={url}>{title}</a> \n🧭 <i><b>ʏᴇᴀʀ</i></b> : {release_date}\n🎯 <i><b>ʀᴀᴛɪɴɢ</i></b> : <a href={url}>IMDb</a>⭐️ {rating}/10 \n🎭 <i><b>ɢᴇɴʀᴇ</i></b> : {genres} \n📚 <i><b>ɴᴏ ᴏғ sᴇᴀsᴏɴs</i></b> : {seasons} Seasons\n\n🎊 <i><b>ᴘᴏᴡᴇʀᴇᴅ ʙʏ</i></b> : <i>[ғʀᴇᴀᴋᴇʀsғɪʟᴍʏ](https://t.me/Freakers_Filmy)</i>")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "True"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
@@ -83,6 +83,6 @@ DOWNLOAD_TEXT_URL = "https://t.me/SixFlix/308"
 
    # Custom Caption Under Button #
 CAPTION_BUTTON = "sᴜʙsᴄʀɪʙᴇ"
-CAPTION_BUTTON_URL = "https://t.me/freakers_series"
+CAPTION_BUTTON_URL = "https://t.me/SixFlix"
 
    # Auto Delete For Bot Sending Files #
