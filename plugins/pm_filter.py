@@ -438,6 +438,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝑺𝒆𝒓𝒊𝒆𝒔 𝑼𝒑𝒅𝒂𝒕𝒆𝒔🍃', url='https://t.me/+4NvHgqi9_FRhNjY1'),
             InlineKeyboardButton('𝑴𝒐𝒗𝒊𝒆 𝑼𝒑𝒅𝒂𝒕𝒆𝒔🍃', url='https://t.me/+HxPeOzEU3nlmMTdl')
         ], [
+            InlineKeyboardButton('𝑱🔞𝒊𝒏 𝑴𝒚 𝑼𝒑𝒅𝒂𝒕𝒆 𝒄𝒉𝒂𝒏𝒏𝒆𝒍', url=f'http://t.me/A4A_Updates')
+        ], [
             InlineKeyboardButton('𝑯𝒆𝒍𝒑 🤗', callback_data='help'),
             InlineKeyboardButton('𝑨𝒃𝒐𝒖𝒕 🫠', callback_data='about')
         ]]
