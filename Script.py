@@ -31,10 +31,10 @@ class script(object):
 """
     ABOUT_TXT = """<b><i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/A4_Adultsbot><b>18+ ʙᴏᴛ</b></a>\n
 👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/A4_AdultsGroup><b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</b></a>\n
-🎞 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ : <a href=https://t.me/freakersfilmy><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
-🎙 ᴍᴏᴠɪᴇ ᴜᴘᴅᴀᴛᴇs : <a href=https://t.me/freakersmovie><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
+🎞 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ : <a href=https://t.me/Freakers_Filmy><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
+🎙 ᴍᴏᴠɪᴇ ᴜᴘᴅᴀᴛᴇs : <a href=https://t.me/+HxPeOzEU3nlmMTdl><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
 📺 sᴇʀɪᴇs ɢʀᴏᴜᴘ : <a href=https://t.me/FF_Series_Only><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
-🎙 sᴇʀɪᴇs ᴜᴘᴅᴀᴛᴇs : <a href=https://t.me/freakers_series><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
+🎙 sᴇʀɪᴇs ᴜᴘᴅᴀᴛᴇs : <a href=https://t.me/+4NvHgqi9_FRhNjY1><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
 📺 sᴇʀɪᴇs ʙᴏᴛ : <a href=https://t.me/ffseriesbot><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
 🎞 ᴍᴏᴠɪᴇs ʙᴏᴛ  : <a href=https://t.me/freakersfilterbot><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
 ✍🏼 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 3\n
@@ -44,7 +44,7 @@ class script(object):
 ⚡️ ᴠᴇʀsɪᴏɴ : <a href=https://t.me/naughty_nonsense><b></b>ᴠ4.0</a>\n</b></i>"""
     SOURCE_TXT = """<b>𝐂𝐫𝐞𝐚𝐭𝐞 𝐎𝐧𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬:</b>
 » I will Create One Bot For You<b>
-» Contact Me @GreyMatter_Owner<b>"""
+» Contact Me @Freakers_Filmy<b>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and Search Bot will respond whenever a keyword is found the message
