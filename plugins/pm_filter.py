@@ -762,12 +762,12 @@ async def auto_filter(client, msg, spoll=False):
             fek = await message.reply_photo(photo=random.choice(PICS), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
             if SELF_DELETE:
                 await asyncio.sleep(SELF_DELETE_SECONDS)
-                await fek.delete()
+                await fek.edit(f"𝘛𝘪𝘵𝘭𝘦: {search} \n Search Result Closed 🗑️ \n Try Again ..🎞")
     else:
         fuk = await message.reply_photo(photo=random.choice(PICS), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
         if SELF_DELETE:
             await asyncio.sleep(SELF_DELETE_SECONDS)
-            await fuk.delete()
+            await fuk.edit(f"𝘛𝘪𝘵𝘭𝘦: {search} \n Search Result Closed 🗑️ \n Try Again ..🎞")
 
 async def advantage_spell_chok(msg):
     query = re.sub(
