@@ -748,7 +748,7 @@ async def auto_filter(client, msg, spoll=False):
                                       reply_markup=InlineKeyboardMarkup(btn))
             if SELF_DELETE:
                 await asyncio.sleep(SELF_DELETE_SECONDS)
-                await hehe.delete()
+                await hehe.edit(f"<b><i>ᴛɪᴛʟᴇ:</i> {search}</b> \nSearch Result Closed. 🗑️ \n Try Again ..🫠\n <b>copyright ©️</b>")
 
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
@@ -756,18 +756,18 @@ async def auto_filter(client, msg, spoll=False):
             hmm = await message.reply_photo(photo=poster, caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
             if SELF_DELETE:
                 await asyncio.sleep(SELF_DELETE_SECONDS)
-                await hmm.delete()
+                await hmm.edit(f"<b><i>ᴛɪᴛʟᴇ:</i> {search}</b> \nSearch Result Closed. 🗑️ \n Try Again ..🫠\n <b>copyright ©️</b>")
         except Exception as e:
             logger.exception(e)
             fek = await message.reply_photo(photo=random.choice(PICS), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
             if SELF_DELETE:
                 await asyncio.sleep(SELF_DELETE_SECONDS)
-                await fek.edit(f"𝘛𝘪𝘵𝘭𝘦: {search} \n Search Result Closed 🗑️ \n Try Again ..🎞")
+                await fek.edit(f"<b><i>ᴛɪᴛʟᴇ:</i> {search}</b> \nSearch Result Closed. 🗑️ \n Try Again ..🫠\n <b>copyright ©️</b>")
     else:
         fuk = await message.reply_photo(photo=random.choice(PICS), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
         if SELF_DELETE:
             await asyncio.sleep(SELF_DELETE_SECONDS)
-            await fuk.edit(f"𝘛𝘪𝘵𝘭𝘦: {search} \n Search Result Closed 🗑️ \n Try Again ..🎞")
+            await fuk.edit(f"<b><i>ᴛɪᴛʟᴇ:</i> {search}</b> \nSearch Result Closed. 🗑️ \n Try Again ..🫠\n <b>copyright ©️</b>")
 
 async def advantage_spell_chok(msg):
     query = re.sub(
